@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
-  //https://github.com/sanji6635/reactdev.git
+  // this is just a comment for practice
   return (
     <>
       <div>
