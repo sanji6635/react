@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       now this is the current page that you will see on the page
-      <p>And i tweaked some changes here </p>
+      <p>changed to see some changes </p>
     </div>
   );
   // here is another comment that i am adding
