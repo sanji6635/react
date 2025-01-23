@@ -6,6 +6,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+import Home from "./Page/Home";
 
 function App() {
   return (
