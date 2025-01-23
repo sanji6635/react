@@ -9,13 +9,7 @@ import {
 import Home from "./Page/Home";
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </Router>
-  );
+  return <Home />;
 }
 
 export default App;
