@@ -1,16 +1,20 @@
 import { useState } from "react";
 import "./App.css";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0);
-  // this is just a comment for practice
   return (
-    <div>
-      now this is the current page that you will see on the page
-      <p>changed to see some changes </p>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
-  // here is another comment that i am adding
 }
 
 export default App;
