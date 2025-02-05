@@ -23,7 +23,7 @@ const useSignup = () => {
       } ;
 
       toast.success(data.message) ;
-      console.log("data is => ", data)
+      console.log("data is => ", data) ;
 
 
 

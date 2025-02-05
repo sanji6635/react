@@ -7,6 +7,7 @@ const Signup = () => {
     name: "",
     email: "",
   });
+  const singup = useSignup() ;
 
   const handleChange = (e) => {
     setUser((data) => ({ ...data, [e.target.name]: e.target.value }));
@@ -15,7 +16,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(user);
-    await useSignup(user.email , user.password)
+    await signup(user.email , user.password)
   };
 
   return (
