@@ -44,7 +44,7 @@ const Login = () => {
       </form>
 
       <br />
-      <Link to="/login">Already have an account ? Login</Link>
+      <Link to="/signup">Already have an account ? Signup</Link>
     </div>
   )
 }
