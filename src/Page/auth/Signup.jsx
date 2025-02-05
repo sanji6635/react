@@ -4,8 +4,8 @@ import useSignup from "../../hooks/useSignup";
 
 const Signup = () => {
   const [user, setUser] = useState({
-    name: "",
     email: "",
+    password: ""
   });
   const signup = useSignup() ;
 
@@ -36,6 +36,7 @@ const Signup = () => {
         <input
           type="password"
           name="password"
+          value={user.password}
           placeholder="Enter your password"
           onChange={handleChange}
         />
