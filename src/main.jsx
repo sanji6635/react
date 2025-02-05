@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import AuthContextProvider from "./hooks/AuthContextProvider";
+import AuthContextProvider from "./context/AuthContextProvider";
 import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(

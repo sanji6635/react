@@ -7,7 +7,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import Home from "./Page/Home";
-import { AuthContext } from "./hooks/AuthContextProvider";
+import { AuthContext } from "./context/AuthContextProvider";
 import Login from "./Page/auth/Login";
 import Signup from "./Page/auth/Signup";
 
