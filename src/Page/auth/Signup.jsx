@@ -7,7 +7,7 @@ const Signup = () => {
     name: "",
     email: "",
   });
-  const singup = useSignup() ;
+  const signup = useSignup() ;
 
   const handleChange = (e) => {
     setUser((data) => ({ ...data, [e.target.name]: e.target.value }));
